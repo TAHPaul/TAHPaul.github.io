@@ -1,7 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>OpenSeadragon Painting Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/3.1.0/openseadragon.min.js"></script>
+    <style>
+        #openseadragon {
+            width: 800px;
+            height: 600px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages by TAHPaul this is a dragon</p>
+    <div id="openseadragon"></div>
+    <script type="text/javascript">
+        var viewer = OpenSeadragon({
+            id: "openseadragon",
+            prefixUrl: "/openseadragon-bin-4.1.1/images/",
+            tileSources: "/tiles/test4tif.dzi"
+        });
+    </script>
 </body>
 </html>
