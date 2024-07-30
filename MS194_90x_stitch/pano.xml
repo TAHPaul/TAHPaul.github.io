@@ -4,7 +4,7 @@
 	<include url="skin/defaultskin.xml" />
 	
 	<!-- view settings -->
-	<view hlookat="0" vlookat="0" maxpixelzoom="2.0" fovmax="150" limitview="fullrange" />
+	<view hlookat="0" vlookat="0" maxpixelzoom="3.0" fovmax="150" limitview="fullrange" />
 	
 
 	<preview url="MS194_90x_stitch.tiles/preview.jpg" />
