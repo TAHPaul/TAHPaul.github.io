@@ -1,0 +1,16 @@
+<krpano>
+	
+	<!-- the skin -->
+	<include url="skin/defaultskin.xml" />
+	
+	<!-- view settings -->
+	<view hlookat="0" vlookat="0" maxpixelzoom="0.8" fovmax="150" limitview="fullrange" />
+	
+
+	<preview url="30x_centralscene_stitch.tiles/preview.jpg" />
+
+	<image hfov="1.00" vfov="1.151414" voffset="0.00">
+		<flat url="30x_centralscene_stitch.tiles/l%l/%00v/l%l_%00v_%00h.jpg" multires="512,512x590,1024x1180,1792x2064,3648x4200,7232x8328,14464x16656,28928x33308,57856x66616" />
+	</image>
+
+</krpano>
